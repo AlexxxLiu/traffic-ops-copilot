@@ -3,3 +3,5 @@
 .env
 __pycache__/
 *.egg-info/eval_results.json
+eval_results.json
+*.egg-info/
