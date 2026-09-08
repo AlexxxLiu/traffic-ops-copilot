@@ -2,4 +2,4 @@
 .venv/
 .env
 __pycache__/
-*.egg-info/
+*.egg-info/eval_results.json

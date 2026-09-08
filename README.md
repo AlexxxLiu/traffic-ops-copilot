@@ -99,4 +99,8 @@ agent/          tool layer (db.py, tools.py), graph (graph.py), state
 scripts/        ingestion, probes, smoke tests, CLI runner, eval harness
 docs/           manual golden case, question set, eval snapshots
 data/           DuckDB + raw CSVs (gitignored; rebuilt by ingestion)
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> fdac638 (Add CLI runner and eval harness; update README)
