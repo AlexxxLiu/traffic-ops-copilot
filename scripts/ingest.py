@@ -4,7 +4,7 @@ import pandas as pd
 BASE = "https://data.cityofnewyork.us/resource/h9gi-nx95.json"
 
 params = {
-    "$where": "crash_date >= '2026-01-01' AND borough = 'QUEENS'",
+    "$where": "crash_date >= '2024-01-01' AND crash_date < '2025-01-01' AND borough = 'QUEENS'",
     "$limit": 50000,
     "$order": "crash_date DESC",
 }
