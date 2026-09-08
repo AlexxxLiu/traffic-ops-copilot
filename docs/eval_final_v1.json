@@ -1,0 +1,142 @@
+[
+  {
+    "id": "Q6",
+    "tier": "L2",
+    "trap": true,
+    "pass": true,
+    "judge_reason": "The agent correctly identifies the -6 to -10% deviation, attributes it to normal Sunday/weekend patterns, does not invent an incident cause, and concludes no anomaly beyond expected day-of-week effects.",
+    "agent_verdict": "Traffic on Northern Boulevard on Sunday 2024-06-09 was modestly below its leave-one-out baseline (EB -6.2%, WB -9.5%), but after adjusting for the expected Sunday pattern, it ranks only 2nd most anomalous in the window, and no specific causal factor is supported by the evidence.",
+    "confidence": "low",
+    "seconds": 11.4
+  },
+  {
+    "id": "Q7",
+    "tier": "L2",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent correctly identifies the Friday end-of-week travel pattern as the most consistent explanation, rules out collision and construction for the same reasons as the reference, and acknowledges uncertainty\u2014matching the reference's substance even if confidence is labeled 'low' rather than 'medium'.",
+    "agent_verdict": "The Friday 2024-06-07 volume elevation (EB +6.4%, WB +8.5%) is most consistent with a typical end-of-week commute surge, as no identified factor in the evidence can explain a bidirectional volume increase on that specific day.",
+    "confidence": "low",
+    "seconds": 9.9
+  },
+  {
+    "id": "Q8",
+    "tier": "L2",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent correctly concludes that no collision or incident caused the volume elevation on 2024-11-18, matching the reference's conclusion, and correctly notes the two late-day collisions cannot explain an all-day volume increase.",
+    "agent_verdict": "No collision or incident caused the 2024-11-18 volume elevation; the modest positive deviation is not the most anomalous day in the window, and the two late-night collisions recorded that day would suppress, not increase, volume.",
+    "confidence": "high",
+    "seconds": 10.9
+  },
+  {
+    "id": "Q9",
+    "tier": "L2",
+    "trap": true,
+    "pass": true,
+    "judge_reason": "The agent correctly states no Traffic Signal Condition complaints were found on 160 Street during the January 2024 count window, matching the reference answer.",
+    "agent_verdict": "No Traffic Signal Condition complaints were recorded on 160 Street during the January 2024 count window (2024-01-17 to 2024-01-30).",
+    "confidence": "high",
+    "seconds": 9.2
+  },
+  {
+    "id": "Q10",
+    "tier": "L2",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent correctly identifies weekdays as generally higher and Sunday as the clear lowest (notably below other days), matching the reference conclusion, even though it notes Saturday is comparable to weekdays rather than clearly lower.",
+    "agent_verdict": "In the June 2024 window, weekday and Saturday volumes are broadly similar, while Sunday volume is notably lower, making a clean weekday-higher-than-weekend pattern only partially supported.",
+    "confidence": "medium",
+    "seconds": 12.0
+  },
+  {
+    "id": "Q11",
+    "tier": "L2",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent correctly confirms active construction during the January 2024 count window and identifies the same key permit types (building operations including roadway/sidewalk occupancy, equipment placement, plus street openings for utility/telecom/water work), matching the reference's substance even if framed with specific examples rather than aggregate counts.",
+    "agent_verdict": "Yes, multiple overlapping construction projects were active on Broadway in Queens during the January 6\u201314, 2024 count window, spanning utility work, building construction, and landscaping.",
+    "confidence": "high",
+    "seconds": 10.3
+  },
+  {
+    "id": "Q12",
+    "tier": "L2",
+    "trap": true,
+    "pass": true,
+    "judge_reason": "The agent correctly concludes no meaningful anomaly on Saturday 2024-06-08, consistent with the reference answer's finding of no significant anomaly and normal variation.",
+    "agent_verdict": "Saturday 2024-06-08 volume on Northern Boulevard was not meaningfully anomalous; its pattern-adjusted score of 3.8 ranks 4th out of 7 days in the window, well below Friday and Sunday.",
+    "confidence": "high",
+    "seconds": 9.6
+  },
+  {
+    "id": "Q13",
+    "tier": "L2",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent honestly states it cannot determine peak hours from daily data, which the reference explicitly accepts as a passing answer.",
+    "agent_verdict": "The evidence provides daily directional volumes but no sub-daily (hourly) breakdowns, so peak hours for eastbound vs. westbound cannot be determined from the available data.",
+    "confidence": "low",
+    "seconds": 13.1
+  },
+  {
+    "id": "Q14",
+    "tier": "L2",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent correctly identifies active DOT in-house paving work on Northern Boulevard in June 2024, matching the reference answer's conclusion.",
+    "agent_verdict": "Yes, DOT paving work was active on Northern Boulevard during June 2024, as evidenced by one DOT IN-HOUSE PAVING AND MILLING permit spanning the observation window.",
+    "confidence": "high",
+    "seconds": 12.3
+  },
+  {
+    "id": "Q15",
+    "tier": "L2",
+    "trap": true,
+    "pass": true,
+    "judge_reason": "The agent correctly concludes no visible suppression was observed, notes elevated volumes on that day, and honestly acknowledges that sub-hourly data are unavailable to detect a post-20:45 effect\u2014matching the reference answer's substance and acceptable uncertainty caveat.",
+    "agent_verdict": "The 20:45 collision on Northern Boulevard on 2024-06-07 shows no visible suppression of traffic volume; daily totals for that day were actually elevated above baseline (+6.4% EB, +8.5% WB), and sub-hourly data needed to detect a post-20:45 drop are not available.",
+    "confidence": "low",
+    "seconds": 12.5
+  },
+  {
+    "id": "Q16",
+    "tier": "L3",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent correctly identifies Friday June 7, 2024 as the most anomalous day and attributes it to end-of-week/Friday travel pattern effects, matching the reference conclusion.",
+    "agent_verdict": "Friday June 7, 2024 was the most anomalous day in Northern Boulevard's June 2024 window, with a volume spike (EB +6.4%, WB +8.5%, pattern-adjusted score 14.9) that is most likely explained by an unverified special-event or end-of-week demand effect, as the construction and collision evidence on that day would suppress rather than increase volume.",
+    "confidence": "low",
+    "seconds": 12.8
+  },
+  {
+    "id": "Q17",
+    "tier": "L3",
+    "trap": true,
+    "pass": true,
+    "judge_reason": "The agent correctly concludes insufficient evidence to confirm any causal explanation, explicitly lists candidate factors as unverified, and maintains low confidence, matching the reference answer's substance.",
+    "agent_verdict": "The evidence cannot confirm any single hypothesis; the November window's higher typical volume (~13,500\u201314,700 EB/WB weekday) versus June (~11,600\u201312,600) is a real difference, but the provided data covers only two short windows (7 and 9 days) and contains no causal evidence\u2014construction was active in both periods, no June-specific closures are documented, and seasonal/school/holiday factors are unverified.",
+    "confidence": "low",
+    "seconds": 13.5
+  },
+  {
+    "id": "Q19",
+    "tier": "L3",
+    "trap": true,
+    "pass": true,
+    "judge_reason": "The agent correctly acknowledges the data limitation (only 16 observed days, sample size below 30) and concludes that no statistically meaningful relationship can be established, matching the reference answer's core requirement.",
+    "agent_verdict": "The available evidence is insufficient to establish a reliable relationship between Street Condition complaints and traffic volume on Northern Boulevard across only 16 observed days in two windows.",
+    "confidence": "low",
+    "seconds": 12.4
+  },
+  {
+    "id": "Q20",
+    "tier": "L3",
+    "trap": false,
+    "pass": true,
+    "judge_reason": "The agent correctly concludes that construction permits do not covary with measurable volume changes, matching the reference answer's conclusion about zero covariance for window-spanning permits and the curb-scale nature of boundary permits.",
+    "agent_verdict": "Construction permit activity was present throughout the June 2024 window but does not covary with measurable volume changes, as the most anomalous day (Friday June 7, +6.4% EB / +8.5% WB) shows a volume increase that construction suppression cannot explain.",
+    "confidence": "low",
+    "seconds": 12.9
+  }
+]

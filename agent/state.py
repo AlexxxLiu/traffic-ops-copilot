@@ -11,6 +11,8 @@ class DiagnosisState(TypedDict, total=False):
     question: str            # raw user question
     street: str              # parsed target street
     date: str | None         # parsed target date (may be absent)
+    period_start: str | None  # parsed period bounds when the question
+    period_end: str | None    # names a month/range instead of a day
     hypotheses: list[str]    # candidate explanations to test
     coverage: dict           # get_data_coverage output
     anomaly: dict            # detect_anomaly output
